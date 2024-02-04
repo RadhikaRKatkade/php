@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Result of student</title>
+</head>
+<style>
+    #sr{
+        margin-top: 5px;
+        margin-left: 2px;
+        align-content: center;
+    }
+    .s{
+        margin-left: 1px;
+        align-content: center;
+        align-items: center;
+       
+    }
+
+</style>
+<body>
+    <div class="jumbotron text-center bg-primary text-white p-5">
+        <h1>Student Result</h1>
+        <p>Lets check your results!!!</p> 
+      </div>
+    <center>
+        
+        <form action="result.php" method="post">
+        
+            Roll no<input type="number" class="border border-primary" name="rn"  id="sr"><br>
+            Name<input type="text" name="nm"  class="border border-success" id="sr"> <br>
+            marathi<input type="number"  class="border border-primary" name="mar" id="sr"><br>
+            english<input type="number"  class="border border-success" name="eng" id="sr"><br>
+            maths<input type="number"  class="border border-primary" name="math" id="sr"><br>
+            science<input type="number"  class="border border-success" name="sci" id="sr"><br>
+            History<input type="number"  class="border border-primary" name="his" id="sr"><br>
+            hindi<input type="number"  class="border border-success" name="hin" id="sr"><br>
+            <input type="submit" name="submit" class="btn btn-success" id="sr">
+        </form>
+    
+    </center>
+</body>
+</html>
